@@ -15,7 +15,7 @@ from pathlib import Path
 # Must run from project root (where run.py lives). Prepend src first so
 # "arch_review_agent" loads from ./src/arch_review_agent, not site-packages.
 _root = Path(__file__).resolve().parent
-_src = _root / "src"
+_src = _root / "arch_review_agent"
 sys.path.insert(0, str(_src))
 
 import arch_review_agent

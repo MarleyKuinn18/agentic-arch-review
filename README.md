@@ -51,9 +51,6 @@ agentic-arch-review/
    pip install -r requirements.txt
    ```
 
-   If you hit SSL errors with a corporate PyPI mirror, use the public index:
-   `pip install --index-url https://pypi.org/simple/ --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt`
-
 2. Copy `.env.example` to `.env` and set your LLM endpoint (e.g. [Ollama](https://ollama.ai/) with an OpenAI-compatible server, or LiteLLM).
 
 3. **Run the agent** (so your latest code changes are used):
