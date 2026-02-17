@@ -1,0 +1,11 @@
+# Architectural Review Agent - FOSS dependencies only
+pydantic>=2.0
+pydantic-settings>=2.0
+python-dotenv>=1.0
+httpx>=0.25
+markdown>=3.5
+
+# Dev (optional)
+# pytest>=7.0
+# pytest-asyncio>=0.21
+# ruff>=0.1
